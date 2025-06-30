@@ -1,3 +1,92 @@
 .main {
-    height: 100dvh;
+    min-height: 100dvh;
+    max-height: auto;
+    max-width: 600px;
+    min-width: none;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.title h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 1rem;
+    color: #555;
+}
+
+.title p {
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input button {
+    padding: 10px 20px;
+    background-color: #ddd;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: normal;
+    color: #333;
+}
+
+.footer p strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.footer button {
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #0056b2;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
 }
