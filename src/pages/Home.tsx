@@ -21,7 +21,7 @@ function Home() {
             <div className={css.title}>
                 <h1>Classificador - MNIST</h1>
                 <h2>O que é?</h2>
-                <p>Esta aplicação permite ao usuário desenhar um número na tela, e utiliza Inteligência Artificial para tentar adivinhar qual foi o número desenhado. O projeto faz uso de um classificador baseado no dataset MNIST, um modelo de aprendizado de máquina amplamente utilizado para reconhecer dígitos manuscritos em imagens. Após o desenho, o sistema processa a imagem e informa ao usuário qual número acredita ter sido escrito, demonstrando na prática o funcionamento de modelos de reconhecimento de padrões em visão computacional.</p>
+                <p>Esta aplicação permite ao usuário desenhar um número na tela, e utiliza Inteligência Artificial para tentar adivinhar qual foi o número de 0 a 9 está desenhado. Após o desenho, o sistema processa a imagem e informa ao usuário qual número acredita ter sido escrito.</p>
             </div>
             <div className={css.image}>
                 <SquareComponent bgColor="#fff" borderColor="#000" />
